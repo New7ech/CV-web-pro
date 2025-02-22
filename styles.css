@@ -32,9 +32,12 @@ h1 {
 }  
 
 .photo {  
-    width: 190px;  
-    height: 222px;  
+    width: 100%;  /* Utilise toute la largeur disponible */  
+    max-width: 190px;  /* Garde la taille originale */  
+    height: auto;  /* Maintient le ratio d'aspect */  
     border-radius: 5px;  
+    display: block;  /* Assure que l'image se comporte comme un bloc */  
+    margin: 0 auto;  /* Centre l'image */  
 }   
 
 h2 {  
@@ -108,4 +111,16 @@ td:last-of-type {
 
 tbody {  
     background-color: rgb(82, 107, 111);  
+}
+@media (max-width: 600px) { /* Ajustez la largeur selon vos besoins */  
+    .cv-header {  
+        flex-direction: column; /* Change l'orientation du flex en colonne */  
+        align-items: flex-start; /* Aligne les éléments au début */  
+    }  
+    
+    .photo {  
+        margin-top: 10px; /* Ajoute un espace au-dessus de la photo */  
+        width: 100%; /* Fait que la photo prenne toute la largeur de l'écran */  
+        height: auto; /* Préserve les proportions de l'image */  
+    }  
 }
