@@ -1,0 +1,111 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 20px;  
+    background-color: #f4f4f4;  
+}  
+
+.container {  
+    max-width: 800px;  
+    margin: auto;  
+    background: white;  
+    padding: 20px;  
+    border-radius: 8px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+
+.cv-header {  
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between;  
+    /*background: #d7e1d8;   */
+    padding: 1px;  
+    border-radius: 5px;  
+    margin-bottom: 20px; /* Marge en bas pour séparer du reste du contenu */  
+}  
+
+h1 {  
+    font-size: 30px;  
+    color: #5e5e5e;  
+    margin: 0;  
+    text-transform: uppercase;  
+}  
+
+.photo {  
+    width: 190px;  
+    height: 222px;  
+    border-radius: 5px;  
+}   
+
+h2 {  
+    font-size: 24px;  
+    color: #333;  
+    font-weight: normal;  
+    margin: 5px 0;  
+}  
+
+p {  
+    margin: 5px 0;  
+}  
+
+ul {  
+    list-style-type: disc;  
+    padding-left: 20px;  
+}  
+
+ul li {  
+    margin: 5px 0;  
+}  
+
+hr {  
+    border: 1px solid #007BFF;   
+    margin: 20px 0;  
+}  
+
+footer {  
+    text-align: center;  
+    margin-top: 20px;  
+    font-style: italic;  
+    color: #555;  
+}   
+
+footer p {  
+    margin: 5px 0;  
+}
+
+table {  
+    border-collapse: none;  
+    border: 1px solid rgb(255, 255, 255);  
+    font-family: sans-serif;  
+    font-size: 2rem; /* Augmenter la taille de la police */  
+    letter-spacing: 1px;  
+    width: 100%; /* Assurez-vous que le tableau occupe toute la largeur disponible */  
+    max-width: 800px; /* Vous pouvez ajuster la largeur maximale si nécessaire */  
+}  
+
+caption {  
+    caption-side: bottom;  
+    padding: 10px;  
+    font-weight: bold;  
+    font-size: 1.2rem; /* Augmenter la taille de la légende */  
+}  
+
+thead {  
+    background-color: rgb(255, 255, 255);  
+}  
+
+th,  
+td,
+tbody {  
+    border: 1px solid rgb(0, 0, 0);  
+    
+    padding: 12px 15px; /* Augmenter le padding pour plus d'espace dans les cellules */  
+}  
+
+td:last-of-type {  
+    text-align: center;  
+}  
+
+tbody {  
+    background-color: rgb(82, 107, 111);  
+}
